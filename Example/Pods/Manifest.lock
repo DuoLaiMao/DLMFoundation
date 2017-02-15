@@ -1,0 +1,16 @@
+PODS:
+  - DMLFoundation (0.1.0)
+
+DEPENDENCIES:
+  - DMLFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  DMLFoundation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DMLFoundation: a01fe8c39624b4b3141d2be3c4587e667db69a01
+
+PODFILE CHECKSUM: b78e5f0899237a11a512202c3cbc6d2db7375101
+
+COCOAPODS: 1.1.1
