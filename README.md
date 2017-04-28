@@ -1,9 +1,9 @@
-# DMLFoundation
+# DLMFoundation
 
-[![CI Status](http://img.shields.io/travis/杨健/DMLFoundation.svg?style=flat)](https://travis-ci.org/杨健/DMLFoundation)
-[![Version](https://img.shields.io/cocoapods/v/DMLFoundation.svg?style=flat)](http://cocoapods.org/pods/DMLFoundation)
-[![License](https://img.shields.io/cocoapods/l/DMLFoundation.svg?style=flat)](http://cocoapods.org/pods/DMLFoundation)
-[![Platform](https://img.shields.io/cocoapods/p/DMLFoundation.svg?style=flat)](http://cocoapods.org/pods/DMLFoundation)
+[![CI Status](http://img.shields.io/travis/杨健/DLMFoundation.svg?style=flat)](https://travis-ci.org/杨健/DLMFoundation)
+[![Version](https://img.shields.io/cocoapods/v/DLMFoundation.svg?style=flat)](http://cocoapods.org/pods/DLMFoundation)
+[![License](https://img.shields.io/cocoapods/l/DLMFoundation.svg?style=flat)](http://cocoapods.org/pods/DLMFoundation)
+[![Platform](https://img.shields.io/cocoapods/p/DLMFoundation.svg?style=flat)](http://cocoapods.org/pods/DLMFoundation)
 
 ## Example
 
@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-DMLFoundation is available through [CocoaPods](http://cocoapods.org). To install
+DLMFoundation is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "DMLFoundation"
+pod "DLMFoundation"
 ```
 
 ## Author
@@ -26,4 +26,4 @@ pod "DMLFoundation"
 
 ## License
 
-DMLFoundation is available under the MIT license. See the LICENSE file for more info.
+DLMFoundation is available under the MIT license. See the LICENSE file for more info.

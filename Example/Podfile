@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'DMLFoundation_Example' do
-  pod 'DMLFoundation', :path => '../'
+target 'DLMFoundation_Example' do
+  pod 'DLMFoundation', :path => '../'
 
-  target 'DMLFoundation_Tests' do
+  target 'DLMFoundation_Tests' do
     inherit! :search_paths
 
     

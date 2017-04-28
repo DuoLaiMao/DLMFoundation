@@ -1,0 +1,6 @@
+framework module DLMFoundation {
+  umbrella header "DLMFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
