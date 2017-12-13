@@ -1,6 +1,6 @@
 {
   "name": "DLMFoundation",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of DLMFoundation.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/杨健/DLMFoundation",
@@ -9,14 +9,15 @@
     "file": "LICENSE"
   },
   "authors": {
-    "杨健": "yangjian@baijiahulian.com"
+    "杨健": "130yangjian@163.com"
   },
   "source": {
     "git": "https://github.com/杨健/DLMFoundation.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DLMFoundation/Classes/**/*"
+  "source_files": "DLMFoundation/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h"
 }

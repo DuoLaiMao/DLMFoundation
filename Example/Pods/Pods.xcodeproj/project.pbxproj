@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39CCFE2A1FDFAB5D002DE380 /* DLMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CCFE291FDFAB5D002DE380 /* DLMFoundation.h */; };
-		39CCFE2D1FDFAB83002DE380 /* NSString+DLMSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CCFE2B1FDFAB83002DE380 /* NSString+DLMSize.h */; };
-		39CCFE2E1FDFAB83002DE380 /* NSString+DLMSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CCFE2C1FDFAB83002DE380 /* NSString+DLMSize.m */; };
-		39CCFE311FDFABC5002DE380 /* NSString+DLMMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CCFE2F1FDFABC5002DE380 /* NSString+DLMMD5.h */; };
-		39CCFE321FDFABC5002DE380 /* NSString+DLMMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CCFE301FDFABC5002DE380 /* NSString+DLMMD5.m */; };
-		39CCFE351FDFAC01002DE380 /* NSDictionary+DLM.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CCFE331FDFAC01002DE380 /* NSDictionary+DLM.h */; };
-		39CCFE361FDFAC01002DE380 /* NSDictionary+DLM.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CCFE341FDFAC01002DE380 /* NSDictionary+DLM.m */; };
-		39CCFE391FDFAC97002DE380 /* DLMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CCFE371FDFAC97002DE380 /* DLMTimer.h */; };
-		39CCFE3A1FDFAC97002DE380 /* DLMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CCFE381FDFAC97002DE380 /* DLMTimer.m */; };
-		39CCFE3D1FDFAD84002DE380 /* NSArray+DLMSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CCFE3B1FDFAD84002DE380 /* NSArray+DLMSafe.h */; };
-		39CCFE3E1FDFAD84002DE380 /* NSArray+DLMSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CCFE3C1FDFAD84002DE380 /* NSArray+DLMSafe.m */; };
+		1A4F33E72BB6B5516A25616B2BA15AC7 /* DLMFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6FCB766E4071FEA368C8533CE983B55 /* DLMFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C73B929C7AE013EF6E1C1306B051395 /* Pods-DLMFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C441EF369D25D593AC92E25FE7810B /* Pods-DLMFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BD38FC514033AAAA76CA6B0CF501A0D /* NSString+DLMMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD5501C13FBFF4428AC016C9033DB8A /* NSString+DLMMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CE3FD22CF2C3734329942B717B9C10E /* NSString+DLMSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EC13B6E695D9348D64071DDD17653C /* NSString+DLMSize.m */; };
 		4D550C1C101A2A09E1113146694A9B42 /* Pods-DLMFoundation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03DAB515552380E9D21DC1D74A1A251E /* Pods-DLMFoundation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5433F83DD0BF59CC3017ED6AD770F2C5 /* NSDictionary+DLM.h in Headers */ = {isa = PBXBuildFile; fileRef = 36FC67FEDADF3C828CBD3A960B2D53FB /* NSDictionary+DLM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5454554AB73C6B3058E0E598663891C2 /* DLMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D561C4928C21811EA0757EEB4D4BB4E /* DLMTimer.m */; };
+		667A7E5AEF356BE6FAD978FAFA171FF5 /* DLMFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A7D3829B2C3E093C4A038849654E56 /* DLMFoundation-dummy.m */; };
+		668B043FC31A52C9274D12506A3531F8 /* DLMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0406B75D35285A630874405A73ADD928 /* DLMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F944BD5CBB25C4EDAF6EBF31BBBF39B /* NSArray+DLMSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D6C16308CE76A8102D7D835AEEB9A1 /* NSArray+DLMSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84A02548FD9548B8C16298ADAA516936 /* Pods-DLMFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A771AA48CA065240D279D95EAE751EBD /* Pods-DLMFoundation_Tests-dummy.m */; };
+		88D8325F64B40E4FE8920A3ED801D039 /* DLMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = AA42E0FD17212A306546D36102C329E6 /* DLMTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8011700DCD79966AB40832E3F018F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9D7775E696DE798C46E39752DFF4076C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B4183813DDEA7FAB5BDA5E5DECE43DF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BFCAD908EA4872BD628F32C14885FC75 /* DLMFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62F75BA6979712A02CA4AAEB81D27281 /* DLMFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9546EF9EF4F3796D62E54161A5434DD /* DLMFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D858FDDCCF92287DD6E969B8EB29E227 /* DLMFoundation-dummy.m */; };
+		A1E25025BA36E4C0694B77F6A8549C61 /* NSDictionary+DLM.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9835D3922401626168A9E78B0311B7 /* NSDictionary+DLM.m */; };
+		A3AD8153A7C23A8EC48DD45CADA15A81 /* NSArray+DLMSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA9409E8B8EF3C773BA79994A920B0F /* NSArray+DLMSafe.m */; };
+		B6712123EA514AA4CB1C0C0EABE2AA63 /* NSString+DLMSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 966CDB6682F0B49148C4AC82D624C798 /* NSString+DLMSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1CD65F62CCC92FB2B3FEE502E594791 /* Pods-DLMFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679F72C4F2711522D8D5207D7BDED96 /* Pods-DLMFoundation_Example-dummy.m */; };
+		EFB97C4536117BCCC5B72BC06457ECCD /* NSString+DLMMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 81490B97D6059251FBB4B50CB340BD5E /* NSString+DLMMD5.m */; };
 		FE0A249977002D0AB8A6CE1101CBECDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,54 +34,54 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B97BE244943D90C3844B4DD5B6CA5406;
+			remoteGlobalIDString = 07BE269669D98F738BA2759FA331F422;
 			remoteInfo = DLMFoundation;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00D6C16308CE76A8102D7D835AEEB9A1 /* NSArray+DLMSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+DLMSafe.h"; path = "DLMFoundation/Classes/NSArray+DLMSafe.h"; sourceTree = "<group>"; };
 		03DAB515552380E9D21DC1D74A1A251E /* Pods-DLMFoundation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DLMFoundation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0406B75D35285A630874405A73ADD928 /* DLMFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLMFoundation.h; path = DLMFoundation/Classes/DLMFoundation.h; sourceTree = "<group>"; };
 		08E1930FE91BA444CEF1BB7B7F4D93C1 /* Pods-DLMFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLMFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0A2B30FB84B0000A5264E7493A0CB8CD /* Pods-DLMFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DLMFoundation_Example.modulemap"; sourceTree = "<group>"; };
+		0A2B30FB84B0000A5264E7493A0CB8CD /* Pods-DLMFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DLMFoundation_Example.modulemap"; sourceTree = "<group>"; };
+		12557214D77F135B7FDE1A914260B8AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1442B43362999725EBBE4C2E1CB9A486 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A5A3E7F0B5E61DC1C68BB11815C95BE /* Pods_DLMFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLMFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5A3E7F0B5E61DC1C68BB11815C95BE /* Pods_DLMFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DLMFoundation_Example.framework; path = "Pods-DLMFoundation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A7D3829B2C3E093C4A038849654E56 /* DLMFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLMFoundation-dummy.m"; sourceTree = "<group>"; };
 		28CE4CA88953312A358F00CB1448B1BF /* Pods-DLMFoundation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLMFoundation_Tests-resources.sh"; sourceTree = "<group>"; };
-		388142FB6B3A525C27CB907FDA6EEEBE /* Pods-DLMFoundation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DLMFoundation_Tests.modulemap"; sourceTree = "<group>"; };
-		39CCFE291FDFAB5D002DE380 /* DLMFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLMFoundation.h; sourceTree = "<group>"; };
-		39CCFE2B1FDFAB83002DE380 /* NSString+DLMSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+DLMSize.h"; sourceTree = "<group>"; };
-		39CCFE2C1FDFAB83002DE380 /* NSString+DLMSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+DLMSize.m"; sourceTree = "<group>"; };
-		39CCFE2F1FDFABC5002DE380 /* NSString+DLMMD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+DLMMD5.h"; sourceTree = "<group>"; };
-		39CCFE301FDFABC5002DE380 /* NSString+DLMMD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+DLMMD5.m"; sourceTree = "<group>"; };
-		39CCFE331FDFAC01002DE380 /* NSDictionary+DLM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DLM.h"; sourceTree = "<group>"; };
-		39CCFE341FDFAC01002DE380 /* NSDictionary+DLM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DLM.m"; sourceTree = "<group>"; };
-		39CCFE371FDFAC97002DE380 /* DLMTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLMTimer.h; sourceTree = "<group>"; };
-		39CCFE381FDFAC97002DE380 /* DLMTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLMTimer.m; sourceTree = "<group>"; };
-		39CCFE3B1FDFAD84002DE380 /* NSArray+DLMSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+DLMSafe.h"; sourceTree = "<group>"; };
-		39CCFE3C1FDFAD84002DE380 /* NSArray+DLMSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DLMSafe.m"; sourceTree = "<group>"; };
+		33F58BF8CB577EDD929A90D1C1B6BD52 /* DLMFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLMFoundation.xcconfig; sourceTree = "<group>"; };
+		36FC67FEDADF3C828CBD3A960B2D53FB /* NSDictionary+DLM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+DLM.h"; path = "DLMFoundation/Classes/NSDictionary+DLM.h"; sourceTree = "<group>"; };
+		388142FB6B3A525C27CB907FDA6EEEBE /* Pods-DLMFoundation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DLMFoundation_Tests.modulemap"; sourceTree = "<group>"; };
+		3AD5501C13FBFF4428AC016C9033DB8A /* NSString+DLMMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DLMMD5.h"; path = "DLMFoundation/Classes/NSString+DLMMD5.h"; sourceTree = "<group>"; };
 		3DBAD62318FD67AF38ABE25081D01063 /* Pods-DLMFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLMFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		43C81404B1271105690814849085AFAD /* DLMFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLMFoundation.xcconfig; sourceTree = "<group>"; };
 		4C5B43C1274D65A66E38F790246C2478 /* Pods-DLMFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DLMFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4F976DC6E544A368B846ED9E8117BB26 /* Pods-DLMFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLMFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A406F9539E5CFDAE9064140F9F9A2D1 /* Pods-DLMFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLMFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
-		628FFB2EC189570D0EE280D7860B29C6 /* DLMFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLMFoundation-prefix.pch"; sourceTree = "<group>"; };
-		62F75BA6979712A02CA4AAEB81D27281 /* DLMFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLMFoundation-umbrella.h"; sourceTree = "<group>"; };
+		62EC13B6E695D9348D64071DDD17653C /* NSString+DLMSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DLMSize.m"; path = "DLMFoundation/Classes/NSString+DLMSize.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A9835D3922401626168A9E78B0311B7 /* NSDictionary+DLM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+DLM.m"; path = "DLMFoundation/Classes/NSDictionary+DLM.m"; sourceTree = "<group>"; };
+		81490B97D6059251FBB4B50CB340BD5E /* NSString+DLMMD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DLMMD5.m"; path = "DLMFoundation/Classes/NSString+DLMMD5.m"; sourceTree = "<group>"; };
 		8679F72C4F2711522D8D5207D7BDED96 /* Pods-DLMFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DLMFoundation_Example-dummy.m"; sourceTree = "<group>"; };
 		8C112F0E6BA81396667121F21DEBAE47 /* Pods-DLMFoundation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DLMFoundation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8C92AD81C085DBDE022CFD13A9842A79 /* DLMFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLMFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1E6B1ABF0AB8A498B8ED8FCFFE2DC44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C92AD81C085DBDE022CFD13A9842A79 /* DLMFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLMFoundation.framework; path = DLMFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		966CDB6682F0B49148C4AC82D624C798 /* NSString+DLMSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DLMSize.h"; path = "DLMFoundation/Classes/NSString+DLMSize.h"; sourceTree = "<group>"; };
+		9D561C4928C21811EA0757EEB4D4BB4E /* DLMTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLMTimer.m; path = DLMFoundation/Classes/DLMTimer.m; sourceTree = "<group>"; };
 		A33D41D71F7E7C1417944BC84BE1D3C8 /* Pods-DLMFoundation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLMFoundation_Example-resources.sh"; sourceTree = "<group>"; };
-		A3F5F469CB016B007F76E3EC28201124 /* DLMFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DLMFoundation.modulemap; sourceTree = "<group>"; };
+		A6FCB766E4071FEA368C8533CE983B55 /* DLMFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLMFoundation-umbrella.h"; sourceTree = "<group>"; };
 		A771AA48CA065240D279D95EAE751EBD /* Pods-DLMFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DLMFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
+		AA42E0FD17212A306546D36102C329E6 /* DLMTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLMTimer.h; path = DLMFoundation/Classes/DLMTimer.h; sourceTree = "<group>"; };
 		B41F95A080E1F29ACF032E3F9977FD66 /* Pods-DLMFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLMFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B6C441EF369D25D593AC92E25FE7810B /* Pods-DLMFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DLMFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
 		C00119D627175A25AAF50A736763366F /* Pods-DLMFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLMFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D73BB506B9AC8978CC09AA229E4AF05B /* Pods-DLMFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLMFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D858FDDCCF92287DD6E969B8EB29E227 /* DLMFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLMFoundation-dummy.m"; sourceTree = "<group>"; };
+		E5E2F077B3FB479F04002FB8C0EED965 /* DLMFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DLMFoundation.modulemap; sourceTree = "<group>"; };
 		E695B32861F4DD5AE431644E114F43AD /* Pods-DLMFoundation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLMFoundation_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		ED9F83EAC8F9D16336F79DCB3A0851A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFC1FCE33286A9F7CC5DD358C28A70E6 /* Pods_DLMFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLMFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CD251B70E9F95D1D7195F4E2052AEF /* DLMFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLMFoundation-prefix.pch"; sourceTree = "<group>"; };
+		FDA9409E8B8EF3C773BA79994A920B0F /* NSArray+DLMSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+DLMSafe.m"; path = "DLMFoundation/Classes/NSArray+DLMSafe.m"; sourceTree = "<group>"; };
+		FFC1FCE33286A9F7CC5DD358C28A70E6 /* Pods_DLMFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DLMFoundation_Tests.framework; path = "Pods-DLMFoundation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,11 +93,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54F3A4A56367F94DA0662C9A0E7FDC5F /* Frameworks */ = {
+		8D130806B136C6273AC193F67EE0C174 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4183813DDEA7FAB5BDA5E5DECE43DF5 /* Foundation.framework in Frameworks */,
+				9C8011700DCD79966AB40832E3F018F1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +122,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		13C2C0BE5B0277CCCA891CF892434510 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				687BE28C6A5927826843671C0C2C12A7 /* DLMFoundation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		39D17EB6AAD3C3292F23C074525B5B26 /* Pods-DLMFoundation_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,26 +148,6 @@
 			path = "Target Support Files/Pods-DLMFoundation_Example";
 			sourceTree = "<group>";
 		};
-		3D2B312192D59A8561533A40035EE8A4 /* DLMFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				EDE9E06BC10731DCEE89FDC055BE6215 /* Support Files */,
-				39CCFE291FDFAB5D002DE380 /* DLMFoundation.h */,
-				39CCFE2B1FDFAB83002DE380 /* NSString+DLMSize.h */,
-				39CCFE2C1FDFAB83002DE380 /* NSString+DLMSize.m */,
-				39CCFE2F1FDFABC5002DE380 /* NSString+DLMMD5.h */,
-				39CCFE301FDFABC5002DE380 /* NSString+DLMMD5.m */,
-				39CCFE331FDFAC01002DE380 /* NSDictionary+DLM.h */,
-				39CCFE341FDFAC01002DE380 /* NSDictionary+DLM.m */,
-				39CCFE3B1FDFAD84002DE380 /* NSArray+DLMSafe.h */,
-				39CCFE3C1FDFAD84002DE380 /* NSArray+DLMSafe.m */,
-				39CCFE371FDFAC97002DE380 /* DLMTimer.h */,
-				39CCFE381FDFAC97002DE380 /* DLMTimer.m */,
-			);
-			name = DLMFoundation;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		4AB21FFE30D17D3F8D850EF09780EE5F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,23 +157,49 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		687BE28C6A5927826843671C0C2C12A7 /* DLMFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				0406B75D35285A630874405A73ADD928 /* DLMFoundation.h */,
+				AA42E0FD17212A306546D36102C329E6 /* DLMTimer.h */,
+				9D561C4928C21811EA0757EEB4D4BB4E /* DLMTimer.m */,
+				00D6C16308CE76A8102D7D835AEEB9A1 /* NSArray+DLMSafe.h */,
+				FDA9409E8B8EF3C773BA79994A920B0F /* NSArray+DLMSafe.m */,
+				36FC67FEDADF3C828CBD3A960B2D53FB /* NSDictionary+DLM.h */,
+				6A9835D3922401626168A9E78B0311B7 /* NSDictionary+DLM.m */,
+				3AD5501C13FBFF4428AC016C9033DB8A /* NSString+DLMMD5.h */,
+				81490B97D6059251FBB4B50CB340BD5E /* NSString+DLMMD5.m */,
+				966CDB6682F0B49148C4AC82D624C798 /* NSString+DLMSize.h */,
+				62EC13B6E695D9348D64071DDD17653C /* NSString+DLMSize.m */,
+				6E0CC54D0257AB5918B5C7ACFABFC4AD /* Support Files */,
+			);
+			name = DLMFoundation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6E0CC54D0257AB5918B5C7ACFABFC4AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5E2F077B3FB479F04002FB8C0EED965 /* DLMFoundation.modulemap */,
+				33F58BF8CB577EDD929A90D1C1B6BD52 /* DLMFoundation.xcconfig */,
+				23A7D3829B2C3E093C4A038849654E56 /* DLMFoundation-dummy.m */,
+				F7CD251B70E9F95D1D7195F4E2052AEF /* DLMFoundation-prefix.pch */,
+				A6FCB766E4071FEA368C8533CE983B55 /* DLMFoundation-umbrella.h */,
+				12557214D77F135B7FDE1A914260B8AA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DLMFoundation";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B05C7A487F4A30911B354858D756E71A /* Development Pods */,
+				13C2C0BE5B0277CCCA891CF892434510 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				01F28A6ECE3ACA2641EB7FA510278052 /* Products */,
 				4AB21FFE30D17D3F8D850EF09780EE5F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		B05C7A487F4A30911B354858D756E71A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3D2B312192D59A8561533A40035EE8A4 /* DLMFoundation */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -222,23 +236,23 @@
 			path = "Target Support Files/Pods-DLMFoundation_Tests";
 			sourceTree = "<group>";
 		};
-		EDE9E06BC10731DCEE89FDC055BE6215 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A3F5F469CB016B007F76E3EC28201124 /* DLMFoundation.modulemap */,
-				43C81404B1271105690814849085AFAD /* DLMFoundation.xcconfig */,
-				D858FDDCCF92287DD6E969B8EB29E227 /* DLMFoundation-dummy.m */,
-				628FFB2EC189570D0EE280D7860B29C6 /* DLMFoundation-prefix.pch */,
-				62F75BA6979712A02CA4AAEB81D27281 /* DLMFoundation-umbrella.h */,
-				A1E6B1ABF0AB8A498B8ED8FCFFE2DC44 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DLMFoundation";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		15E825A7CD95CDAA4BE74C982BDAF419 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4F33E72BB6B5516A25616B2BA15AC7 /* DLMFoundation-umbrella.h in Headers */,
+				668B043FC31A52C9274D12506A3531F8 /* DLMFoundation.h in Headers */,
+				88D8325F64B40E4FE8920A3ED801D039 /* DLMTimer.h in Headers */,
+				6F944BD5CBB25C4EDAF6EBF31BBBF39B /* NSArray+DLMSafe.h in Headers */,
+				5433F83DD0BF59CC3017ED6AD770F2C5 /* NSDictionary+DLM.h in Headers */,
+				4BD38FC514033AAAA76CA6B0CF501A0D /* NSString+DLMMD5.h in Headers */,
+				B6712123EA514AA4CB1C0C0EABE2AA63 /* NSString+DLMSize.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E238C94DA29D99693528B7DE547E3E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,23 +269,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED1689C5026E20B7921E370769D6CC6A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39CCFE3D1FDFAD84002DE380 /* NSArray+DLMSafe.h in Headers */,
-				39CCFE2D1FDFAB83002DE380 /* NSString+DLMSize.h in Headers */,
-				39CCFE311FDFABC5002DE380 /* NSString+DLMMD5.h in Headers */,
-				39CCFE391FDFAC97002DE380 /* DLMTimer.h in Headers */,
-				BFCAD908EA4872BD628F32C14885FC75 /* DLMFoundation-umbrella.h in Headers */,
-				39CCFE351FDFAC01002DE380 /* NSDictionary+DLM.h in Headers */,
-				39CCFE2A1FDFAB5D002DE380 /* DLMFoundation.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		07BE269669D98F738BA2759FA331F422 /* DLMFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488FCBDCF8049FBE405194F4D2993F85 /* Build configuration list for PBXNativeTarget "DLMFoundation" */;
+			buildPhases = (
+				FDAAD7E088E10AC2656E5A8150BF23ED /* Sources */,
+				8D130806B136C6273AC193F67EE0C174 /* Frameworks */,
+				15E825A7CD95CDAA4BE74C982BDAF419 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLMFoundation;
+			productName = DLMFoundation;
+			productReference = 8C92AD81C085DBDE022CFD13A9842A79 /* DLMFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		21ADF0051C0EC227481EAA28065E1E10 /* Pods-DLMFoundation_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACE7B41EB9D9ED03E68F661AF305DD2F /* Build configuration list for PBXNativeTarget "Pods-DLMFoundation_Tests" */;
@@ -287,23 +304,6 @@
 			name = "Pods-DLMFoundation_Tests";
 			productName = "Pods-DLMFoundation_Tests";
 			productReference = FFC1FCE33286A9F7CC5DD358C28A70E6 /* Pods_DLMFoundation_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B97BE244943D90C3844B4DD5B6CA5406 /* DLMFoundation */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0679E2DBD71072237CC105D83FAA7D45 /* Build configuration list for PBXNativeTarget "DLMFoundation" */;
-			buildPhases = (
-				F53776EEB53F8443CA2A8074F52641C7 /* Sources */,
-				54F3A4A56367F94DA0662C9A0E7FDC5F /* Frameworks */,
-				ED1689C5026E20B7921E370769D6CC6A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DLMFoundation;
-			productName = DLMFoundation;
-			productReference = 8C92AD81C085DBDE022CFD13A9842A79 /* DLMFoundation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E2AA090ADC9C1D41562C8A5053D5CEEB /* Pods-DLMFoundation_Example */ = {
@@ -345,7 +345,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B97BE244943D90C3844B4DD5B6CA5406 /* DLMFoundation */,
+				07BE269669D98F738BA2759FA331F422 /* DLMFoundation */,
 				E2AA090ADC9C1D41562C8A5053D5CEEB /* Pods-DLMFoundation_Example */,
 				21ADF0051C0EC227481EAA28065E1E10 /* Pods-DLMFoundation_Tests */,
 			);
@@ -369,16 +369,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F53776EEB53F8443CA2A8074F52641C7 /* Sources */ = {
+		FDAAD7E088E10AC2656E5A8150BF23ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9546EF9EF4F3796D62E54161A5434DD /* DLMFoundation-dummy.m in Sources */,
-				39CCFE2E1FDFAB83002DE380 /* NSString+DLMSize.m in Sources */,
-				39CCFE321FDFABC5002DE380 /* NSString+DLMMD5.m in Sources */,
-				39CCFE3A1FDFAC97002DE380 /* DLMTimer.m in Sources */,
-				39CCFE3E1FDFAD84002DE380 /* NSArray+DLMSafe.m in Sources */,
-				39CCFE361FDFAC01002DE380 /* NSDictionary+DLM.m in Sources */,
+				667A7E5AEF356BE6FAD978FAFA171FF5 /* DLMFoundation-dummy.m in Sources */,
+				5454554AB73C6B3058E0E598663891C2 /* DLMTimer.m in Sources */,
+				A3AD8153A7C23A8EC48DD45CADA15A81 /* NSArray+DLMSafe.m in Sources */,
+				A1E25025BA36E4C0694B77F6A8549C61 /* NSDictionary+DLM.m in Sources */,
+				EFB97C4536117BCCC5B72BC06457ECCD /* NSString+DLMMD5.m in Sources */,
+				4CE3FD22CF2C3734329942B717B9C10E /* NSString+DLMSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +388,7 @@
 		C29243FA1A791A7731DBFDC17E4364C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DLMFoundation;
-			target = B97BE244943D90C3844B4DD5B6CA5406 /* DLMFoundation */;
+			target = 07BE269669D98F738BA2759FA331F422 /* DLMFoundation */;
 			targetProxy = B6090C7883F34AED0A00B9D63465C9CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -607,9 +607,9 @@
 			};
 			name = Release;
 		};
-		BA8F13CE3EAEBB0804720F63AB00C6EB /* Debug */ = {
+		A4ED15ED869EDF18A1A682B99A75EC5D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43C81404B1271105690814849085AFAD /* DLMFoundation.xcconfig */;
+			baseConfigurationReference = 33F58BF8CB577EDD929A90D1C1B6BD52 /* DLMFoundation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -631,10 +631,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		E179E04E7AA5ECDF08A45CB780360598 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -668,9 +669,9 @@
 			};
 			name = Debug;
 		};
-		EE35C3504973C9F9693812B029CC8C5E /* Release */ = {
+		EC532AA7293B9FFA9D2B567A8F99EFA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43C81404B1271105690814849085AFAD /* DLMFoundation.xcconfig */;
+			baseConfigurationReference = 33F58BF8CB577EDD929A90D1C1B6BD52 /* DLMFoundation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -692,24 +693,14 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0679E2DBD71072237CC105D83FAA7D45 /* Build configuration list for PBXNativeTarget "DLMFoundation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA8F13CE3EAEBB0804720F63AB00C6EB /* Debug */,
-				EE35C3504973C9F9693812B029CC8C5E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -724,6 +715,15 @@
 			buildConfigurations = (
 				3000A28F227AB31E178D1B12903F1B98 /* Debug */,
 				24D2D812704B0B1982F0D73E4AE20B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488FCBDCF8049FBE405194F4D2993F85 /* Build configuration list for PBXNativeTarget "DLMFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC532AA7293B9FFA9D2B567A8F99EFA7 /* Debug */,
+				A4ED15ED869EDF18A1A682B99A75EC5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
