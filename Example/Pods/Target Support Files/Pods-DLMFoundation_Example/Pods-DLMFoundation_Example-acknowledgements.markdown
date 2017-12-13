@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## DLMFoundation
 
-Copyright (c) 2017 杨健 <yangjian@baijiahulian.com>
+Copyright (c) 2015 杨健 <130yangjian@163.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
